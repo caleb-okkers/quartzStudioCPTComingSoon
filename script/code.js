@@ -96,4 +96,11 @@ document.addEventListener('DOMContentLoaded', function() {
             xhr.send(formData);
         }
     });
+
+    // Clear error messages when the form is reset
+    form.addEventListener('reset', function() {
+        document.getElementById('nameError').textContent = '';
+        document.getElementById('emailError').textContent = '';
+        document.getElementById('messageError').textContent = '';
+    });
 });

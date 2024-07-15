@@ -25,6 +25,8 @@ body {
 
 .navbar .nav-link {
     color: #4b4242 !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 
 .navbar-toggler {
@@ -38,6 +40,36 @@ body {
 
 .logo {
     width: 4rem;
+}
+
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #fff; /* Adjust this color as needed */
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; /* Adjust the height of the line */
+    bottom: 0;
+    left: 50%;
+    background-color: #fff; /* Adjust the color of the line */
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ddd; /* Adjust the hover text color */
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 
@@ -174,7 +206,7 @@ body {
 }
 
 #messagingForm button {
-    width: 50%;
+    width: 45%;
 
     padding: 5px;
     background-color: #4b4242; /* Green background */
