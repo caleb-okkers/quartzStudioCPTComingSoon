@@ -84,11 +84,18 @@ body {
     font-size: 3rem;
     margin: 0 auto;
     color: #4b4242;
-    
+    text-shadow: 1px 1px 1px #000;
+}
+
+.cs-text {
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }
 
 .cs {
-    font-size: 8rem;
+    font-size: 3rem;
     color: #fff;
     text-shadow: 2px 2px 5px #000;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
