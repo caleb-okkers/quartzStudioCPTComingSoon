@@ -376,11 +376,6 @@ img:hover {
         margin-bottom: 1rem !important;
     }
 
-    .popup {
-        width: 50% !important; /* Adjust popup width */
-        height: 60%; /* Adjust popup height */
-        margin-top: 12rem !important;
-    }
 
 
 }
@@ -396,7 +391,7 @@ img:hover {
     .title-div {
         font-size: 2.5rem;
         margin-top: 5rem !important;
-        margin-bottom: 0rem !important;
+        margin-bottom: 2rem !important;
     }
 
     .cs {
@@ -413,7 +408,7 @@ img:hover {
     .popup {
         width: 50% !important; /* Adjust popup width */
         height: 60%; /* Adjust popup height */
-        margin-top: 16rem !important;
+        margin-top: 4rem !important;
     }
 
     #openMessagingFab {
@@ -441,8 +436,8 @@ img:hover {
     }
 
     .title-div {
-        margin-top: 5rem !important;
-        margin-bottom: -2rem !important;
+        margin-top: 3rem !important;
+        margin-bottom: 0rem !important;
     }
 
     .cs {
@@ -458,8 +453,8 @@ img:hover {
 
     .popup {
         width: 75% !important; /* Further adjust popup width */
-        height: 50%; /* Further adjust popup height */
-        margin-top: 22rem !important;
+        height: 50% !important; /* Further adjust popup height */
+        
     }
 
     #openMessagingFab {
